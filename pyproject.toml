@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dnzapi"
+version = "0.0.1"
+description = "Client for querying DigitalNZ via its API"
+readme = "README.rst"
+license = { file = "COPYING.LESSER" }
+authors = [
+  { name="Jamie Norrish", email="jamie@artefact.org.nz" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "api-client",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ucdh/digitalnz-api-python"
+"Bug Tracker" = "https://github.com/ucdh/digitalnz-api-python/issues"
